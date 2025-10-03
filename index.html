@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESSENCE - Catálogo Oficial y Precios (Potenciado)</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* --- Estilos Base (Asegura la coherencia visual) --- */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 10px 0;
+            border-bottom: 5px solid #a87932;
+        }
+        .logo h1 {
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            font-size: 1.8em;
+            color: #f0c37c;
+        }
+        .hero {
+            background: url('image_4a57ea.png') no-repeat center center/cover;
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            background: rgba(0, 0, 0, 0.6);
+            position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;
+        }
+        .hero-content {
+            position: relative; z-index: 2; color: white;
+        }
+        .hero h2 {
+            font-family: 'Playfair Display', serif; font-size: 3em; color: #fff;
+        }
+        .btn {
+            display: inline-block; background-color: #a87932; color: white; padding: 10px 30px; text-decoration: none; border-radius: 5px; transition: background-color 0.3s; font-weight: 700;
+        }
+        .btn:hover { background-color: #f0c37c; color: #333; }
+        .btn-secondary {
+            background-color: #3b5998; /* Un color distinto para el catálogo/Instagram */
+            margin-left: 10px;
+        }
+        .btn-secondary:hover { background-color: #4c70ba; }
+        section {
+            padding: 60px 0;
+        }
+        .wholesale-prices, .original-perfumes {
+            background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 30px; padding: 30px;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif; text-align: center; color: #a87932; margin-bottom: 40px; font-size: 2.5em;
+        }
+        h3 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #1a1a1a; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px; margin-top: 30px;
+        }
+        .h3-title {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        table {
+            width: 100%; border-collapse: collapse; margin-bottom: 30px;
+        }
+        table thead tr {
+            background-color: #a87932; color: white;
+        }
+        table th, table td {
+            padding: 12px 15px; text-align: left; border-bottom: 1px solid #ddd;
+        }
+        .precio-nuevo {
+            font-weight: 700; color: #a87932; /* Tono más elegante que el rojo, manteniendo el color de la marca */
+        }
+        .instagram-callout {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+        }
+        .instagram-callout a {
+            background-color: #C13584; /* Color de Instagram */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .instagram-callout a:hover {
+            background-color: #833AB4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="fff.png" alt="ESSENCE Logo" height="100"> 
+                <h1>ESSENCE</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#perfumes">Perfumes</a></li>
+                    <li><a href="#mayorista">Splash/Kits</a></li>
+                    <li><a href="#originales">Originales/Árabes</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>ESSENCE: ¡Llevamos nuestro negocio al siguiente nivel!</h2>
+                    <p>Descubre nuestro catálogo completo con todos los precios.</p>
+                    <a href="#perfumes" class="btn">Ver Catálogo de Perfumes</a>
+                    <a href="https://www.instagram.com/perfumes__essence?igsh=NHBjdHN1cDh3bWc1" target="_blank" class="btn btn-secondary">Síguenos en Instagram</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="perfumes" class="wholesale-prices">
+            <div class="container">
+                <h2>CATÁLOGO DE PERFUMES AL POR MAYOR (Precios Mayorista)</h2>
+
+                <h3>
+                    <span class="h3-title">Réplicas 1.1</span>
+                    <a href="https://photos.app.goo.gl/J4tPKJpBzsKt6tvN6" target="_blank" class="btn btn-secondary">Ver Catálogo Completo</a>
+                </h3>
+                <table>
+                    <thead>
+                        <tr><th>Producto</th><th>Precio (COP)</th></tr>
+                    </thead>
+                    <tbody>
+                                                <tr><td>Perfumes 1.1 (100ml)</td><td class="precio-nuevo"> el precio varia segun la referencia</td></tr>
+                    </tbody>
+                </table>
+
+                <h3>
+                    <span class="h3-title">Réplicas AAA</span>
+                    <a href="https://photos.app.goo.gl/Yp1ai3MqHuTu2udX8" target="_blank" class="btn btn-secondary">Ver Catálogo Completo</a>
+                </h3>
+                <table>
+                    <thead>
+                        <tr><th>Producto</th><th>Precio (COP)</th></tr>
+                    </thead>
+                    <tbody>
+                                                <tr><td>Perfumes AAA (100ml)</td><td class="precio-nuevo"> el precio varia segun la referencia</td></tr>
+                    </tbody>
+                </table>
+
+                <h3>
+                    <span class="h3-title">Réplicas Prestige</span>
+                    <a href="https://photos.app.goo.gl/VStwxASvshcDECdA8" target="_blank" class="btn btn-secondary">Ver Catálogo Completo</a>
+                </h3>
+                <table>
+                    <thead>
+                        <tr><th>Producto</th><th>Precio (COP)</th></tr>
+                    </thead>
+                    <tbody>
+                                                <tr><td>Perfumes Prestige (100ml)</td><td class="precio-nuevo">el precio varia segun la referencia</td></tr>
+                    </tbody>
+                </table>
+
+        </section>
+        
+        <section id="originales" class="original-perfumes">
+            <div class="container">
+                <h2>Perfumes Originales, Árabes y de Autor</h2>
+
+                <h3>
+                    <span class="h3-title">Perfumes de Marca y Árabes</span>
+                    <a href="https://photos.app.goo.gl/BEsgeeJqj7Dv8ZFq9" target="_blank" class="btn btn-secondary">Ver Catálogo Completo</a>
+                </h3>
+                <table>
+                    <thead>
+                        <tr><th>Producto</th><th>Precio (COP)</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>HERRERA for men</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>CH men</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Good girl DAZZLING GARDEN</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>212 men NYC metálica</td><td class="precio-nuevo">$114.000</td></tr>
+                        <tr><td>212 men HEROES FOREVER YOUNG</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Invictus VICTORY ELIXIR</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>PHANTOM INTENSE 150ml</td><td class="precio-nuevo">$95.000</td></tr>
+                        <tr><td>Jean Paul Gualtier “LE MALE” Elixir lata</td><td class="precio-nuevo">$152.000</td></tr>
+                        <tr><td>Scandal ABSOLU men</td><td class="precio-nuevo">$95.000</td></tr>
+                                                <tr><td>CH dama</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Good girl</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Good girl FANTASTIC PINK</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Good girl BLUSH</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Good girl VERY</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Good girl WHITE</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 men NYC</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 men SEXY</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 men AQUA</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 VIP men</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 VIP men metálica</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>212 VIP men BLACK</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 VIP men BLACK ILNY</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 VIP men BLACK RED</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 VIP men WILD PARTY</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 men HEROES FOREVER YOUNG BLACK</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>212 NYC dama</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 SEXY dama</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 VIP dama</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 VIP ROSÉ dama</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 VIP WILD PARTY dama</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>212 VIP PARTY FEVER dama</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>212 VIP ROSÉ ILNY dama</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>212 HÉROES FOREVER YOUNG dama</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>212 HÉROES FOREVER YOUNG RED dama</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Invictus tradicional</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Invictus LEGEND</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Invictus PLATINUM</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Invictus ONYX</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Invictus VICTORY</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Invictus INTENSE</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Invictus PARFUM</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Olympèa</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Olympèa PARFUM</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Olympèa SOLAR</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Olympèa BLOSSOM</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>MILLION GOLD For Her</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>PHANTOM tradicional 100ml</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>PHANTOM traditional 150ml</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>PHANTOM PARFUM 100ml</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>PHANTOM LEGIÓN 150ml</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>FAME dama</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>FAME BLOOMING PINK dama</td><td class="precio-nuevo">$95.000</td></tr>
+                        <tr><td>Black XS cuadrada</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Black XS tradicional</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Black XS L’EXCÈS</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Black XS L’Aphrodisiaque</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Pure XS</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>One millón tradicional</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>One millón LUCKY</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>One millón PRIVE</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>One millón PARFUM</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>One millón ELIXYR</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>One millón ROYAL</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>One millón GOLDEN OUD</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>MILLION GOLD Men</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Lady millón</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Lady millón EMPIRE</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Lady millón LUCKY</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Lady millón FABULOUS</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Lady millón PRIVE</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Lacoste Noir</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Lacoste Blanc - pure</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Lacoste Rouge</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Lacoste Magnetic</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Lacoste ESSENTIAL (verde clara)</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Lacoste RED 125ml (roja redonda)</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Lacoste Natural dama</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Lacoste Sparkling dama</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Lacoste Elegant dama</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Lacoste Magnetic dama</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Burberry tradicional</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Burberry Her</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Jean Paul Gualtier “LE MALE” caja</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Jean Paul Gualtier “LE MALE” lata</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Jean Paul Gualtier “LE BEAU” Le Parfum caja</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Jean Paul Gualtier “LE BEAU” Le Parfum lata</td><td class="precio-nuevo">$133.000</td></tr>
+                        <tr><td>Jean Paul Gualtier “Libertè Ègalite Sexualitè” caja</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Jean Paul Gualtier “ULTRA MALE” lata</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Jean Paul Gualtier “ LE MALE LE PARFUM” lata</td><td class="precio-nuevo">$95.000</td></tr>
+                        <tr><td>Jean Paul Gualtier “LA BELLE” Le Parfum caja dama</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Jean Paul Gualtier “CLASSIQUE” caja dama</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Jean Paul Gualtier “CLASSIQUE” lata dama</td><td class="precio-nuevo">$114.000</td></tr>
+                        <tr><td>Jean Paul Gualtier “DIVINE” lata dama</td><td class="precio-nuevo">$114.000</td></tr>
+                        <tr><td>Scandal ABSOLU dama</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Scandal dama</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Paris Hilton tradicional men</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Paris Hilton tradicional dama</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>CAN CAN Paris Hilton</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Heiress Paris Hilton</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Dazzle Paris Hilton</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Rose Rush Paris Hilton</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>MEOW White by Katy Perry</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>PURRS by Katy Perry</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Mercedes-Benz woman</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Mercedes-Benz men</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Blue Seduction for women Antonio Banderas</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Náutica Voyage</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>ANGEL Thierry Mugler dama</td><td class="precio-nuevo">$95.000</td></tr>
+                        <tr><td>ALÍEN Thierry Mugler dama</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Creed Silver Mountain Water económica</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Creed Silver Mountain Water</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Creed Aventus</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Creed Millésime Imperial</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Creed Virgin Island Water</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Creed Erolfa</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Creed Royal Water</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Creed Green Irish Tweed</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Creed Original Santal</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>ACQUA DI GIÕ</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>ACQUA DI GIÕ Profondo</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>ACQUA DI GIÕ Profumo</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>ACQUA DI GIÕ ABSOLU</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>STRONGER WITH YOU ONLY Men</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>ARMANI CODE 125ml</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>CK One</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>ETERNITY for men</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>CK in 2U her</td><td class="precio-nuevo">$85.500</td></tr>
+                        <tr><td>Givenchy Blue Label</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Mont Blanc Legend</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Mont Blanc Legend Spirit</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Mont Blanc Legend Red</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Mont Blanc EMBLEM</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Mont Blanc STARWALKER</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Mont Blanc Explorer</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Déclaration essence Cartier</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Santos de Cartier</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>EAU de Cartier</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>SOLO LOEWE Men</td><td class="precio-nuevo">$95.000</td></tr>
+                        <tr><td>Diésel Only The Brave Tattoo</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Diésel Spirit of The Brave</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Issey Miyake hombre</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Issey Miyake tradicional dama</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Issey Miyake City Blossom dama</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Y YSL</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Bombshell Victoria’s Secret</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Bombshell Intense Victoria’s Secret</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Bombshell Seduction Victoria’s Secret</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Ombré Nomade LV hombre cilindro</td><td class="precio-nuevo">$114.000</td></tr>
+                        <tr><td>Valentino DONNA Born in Roma dama</td><td class="precio-nuevo">$85.500</td></tr>
+                        <tr><td>Valentino Uomo</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Valentino Uomo Born in Roma</td><td class="precio-nuevo">$95.000</td></tr>
+                        <tr><td>Moschino Funny</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Moschino Fresh Couture Golden</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Moschino Toy boy - Toy 2 - Bubble gum</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Tapa pequeña</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Tapa mediana</td><td class="precio-nuevo">$95.000</td></tr>
+                        <tr><td>Tapa grande</td><td class="precio-nuevo">$123.500</td></tr>
+                        <tr><td>Moschino toy 2 PEARL</td><td class="precio-nuevo">$123.500</td></tr>
+                        <tr><td>Moschino toy 2 GOLD</td><td class="precio-nuevo">$123.500</td></tr>
+                        <tr><td>Candy Ariana Grande rosada</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Thank U Next Ariana Grande rosada-morada</td><td class="precio-nuevo">$114.000</td></tr>
+                        <tr><td>Cloud Ariana Grande azul-rosada</td><td class="precio-nuevo">$114.000</td></tr>
+                        <tr><td>R.E.M Ariana Grande</td><td class="precio-nuevo">$114.000</td></tr>
+                        <tr><td>HALLOWEEN dama</td><td class="precio-nuevo">$76.000</td></tr>
+                        <tr><td>Clinique Happy for men</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>FANTASY Britney Spears</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Viva La Juicy dama</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Happy Paisan dama</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>SPICEBOMB VIKTOR&ROLF</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>FLOWERBOM VIKTOR&ROLF dama</td><td class="precio-nuevo">$66.500</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+        <section id="mayorista" class="wholesale-prices">
+            <div class="container">
+                <h2>Aerosoles, Splash y Kits </h2>
+
+                <h3>
+                    <span class="h3-title">Aerosoles y Splash</span>
+                    <a href="https://photos.app.goo.gl/hwJACeVzGH6pZ4156" target="_blank" class="btn btn-secondary">Ver Catálogo Aerosoles 1.1</a>
+                </h3>
+                <table>
+                    <thead>
+                        <tr><th>Producto</th><th>Precio (COP)</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Aerosoles Réplica 1.1</td><td class="precio-nuevo">$28.500</td></tr>
+                        <tr><td>Aerosoles Originales Lattafa</td><td class="precio-nuevo">$57.000</td></tr>
+                        <tr><td>Aerosoles Originales ARMAF</td><td class="precio-nuevo">$66.500</td></tr>
+                        <tr><td>Splash tapa dorada (Ver: [Tapa Dorada])</td><td class="precio-nuevo">$19.000</td></tr>
+                        <tr><td>Splash tradicional V.S (Ver: [Tradicional VS])</td><td class="precio-nuevo">$17.100</td></tr>
+                        <tr><td>Splash acrílico (Ver: [Acrílico])</td><td class="precio-nuevo">$19.000</td></tr>
+                        <tr><td>Splash económico (Ver: [Económico])</td><td class="precio-nuevo">$8.550</td></tr>
+                        <tr><td>Splash Pink (Ver: [PINK])</td><td class="precio-nuevo">$17.100</td></tr>
+                        <tr><td>Crema Mantequilla V.S Escarcha (Ver: [Mantequilla VS])</td><td class="precio-nuevo">$19.000</td></tr>
+                    </tbody>
+                </table>
+
+                <h3>
+                    <span class="h3-title">Línea Infantil</span>
+                    <a href="https://photos.app.goo.gl/pwhMa1wRaPiGN2HC7" target="_blank" class="btn btn-secondary">Ver Catálogo Infantil</a>
+                </h3>
+                <table>
+                    <thead>
+                        <tr><th>Producto</th><th>Precio (COP)</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Splash niñ@ 250ml (Ver: [250ml])</td><td class="precio-nuevo">$17.100</td></tr>
+                        <tr><td>Tubo niño 4oz (Ver: [Tubo 4oz])</td><td class="precio-nuevo">$13.300</td></tr>
+                        <tr><td>Cajita niñ@ 75ml (Ver: [Cajita 75ml])</td><td class="precio-nuevo">$7.600</td></tr>
+                        <tr><td>Estuche niña crema y splash</td><td class="precio-nuevo">$15.200</td></tr>
+                        <tr><td>Estuche niñ@ muñeco (Ver: [Muñeco])</td><td class="precio-nuevo">$34.200</td></tr>
+                    </tbody>
+                </table>
+
+                <h3>
+                    <span class="h3-title">Dúos, Estuches y Accesorios</span>
+                    <a href="https://photos.app.goo.gl/XL5DDT2cDHKNWk459" target="_blank" class="btn btn-secondary">Ver Catálogo Dúos/Estuches</a>
+                </h3>
+                <table>
+                    <thead>
+                        <tr><th>Producto</th><th>Precio (COP)</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Dúo Splash y crema tapa dorada (Ver: [Dúo Tapa Dorada])</td><td class="precio-nuevo">$39.900</td></tr>
+                        <tr><td>Estuche Splash y crema tipo perfume (Ver: [Tipo Perfume])</td><td class="precio-nuevo">$41.800</td></tr>
+                        <tr><td>Bolsa Victoria’s Secret</td><td class="precio-nuevo">$3.800</td></tr>
+                        <tr><td>Caja Victoria’s Secret</td><td class="precio-nuevo">$5.700</td></tr>
+                        <tr><td>Dúo económico bolsa 125ml</td><td class="precio-nuevo">$8.550</td></tr>
+                        <tr><td>Dúo económico bolsa 250ml</td><td class="precio-nuevo">$17.100</td></tr>
+                        <tr><td>Dúo caja 125ml</td><td class="precio-nuevo">$15.200</td></tr>
+                        <tr><td>Dúo caja 250ml</td><td class="precio-nuevo">$22.800</td></tr>
+                        <tr><td>Estuche 1.1 VALENTINO x3- 50ml (Ver: [Estuches 1.1] )</td><td>$92.000</td></tr>
+                        <tr><td>Estuche 1,1 FAME x3- 30ml</td><td>$97.750</td></tr>
+                    </tbody>
+                </table>
+
+                <h3>
+                    <span class="h3-title">Estuches Emprendedor</span>
+                    <a href="https://photos.app.goo.gl/hzwVDpbpb5KFNVXZ9" target="_blank" class="btn btn-secondary">Ver Catálogo Estuches</a>
+                </h3>
+                <table>
+                    <thead>
+                        <tr><th>Producto</th><th>Precio (COP)</th></tr>
+                    </thead>
+                    <tbody>
+                                                <tr><td>Estuche Mini Perfumes Emprendedor (x3)</td><td class="precio-nuevo"> (el precio varia segun la referencia)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <div class="contact-form">
+                    <h2>Contáctanos y Haz tu Pedido</h2>
+                    <h3>3145853187</h3>
+                    <p>¡Envíe un mensaje o contáctenos por WhatsApp para iniciar su pedido mayorista!</p>
+                    <div class="instagram-callout">
+                        <p>¡Estamos creciendo! Únete a nuestros **200+ seguidores** en Instagram para ver contenido exclusivo y lanzamientos.</p>
+                        <a href="https://www.instagram.com/perfumes__essence?igsh=NHBjdHN1cDh3bWc1" target="_blank">Ver Instagram de ESSENCE</a>
+                    </div>
+                    
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nombre Completo:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Teléfono (opcional):</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ESSENCE. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

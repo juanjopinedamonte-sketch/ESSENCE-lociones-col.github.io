@@ -1,0 +1,359 @@
+/* Colores de tu paleta:
+    - Blanco roto / Beige claro: #F8F7F2 (fondo principal)
+    - Blanco puro: #FFFFFF (fondos de secciones, texto claro)
+    - Dorado: #DAA520 (acentos, botones, logo)
+    - Azul marino: #1A2E4E (texto principal, elementos de navegación)
+    - Negro: #000000 (texto secundario, sombreado)
+*/
+
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F7F2; /* Blanco roto / Beige claro */
+    color: #1A2E4E; /* Azul marino para texto principal */
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #1A2E4E; /* Azul marino */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+a {
+    color: #DAA520; /* Dorado */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #FFFFFF;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Ajusta el tamaño de tu logo */
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #1A2E4E; /* Azul marino */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #1A2E4E; /* Azul marino */
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #DAA520; /* Dorado */
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('hero_background.jpg') no-repeat center center/cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 20px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h2 {
+    font-size: 3.5em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #DAA520; /* Dorado */
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b8860b; /* Dorado más oscuro */
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+/* Wholesale Prices & Original Perfumes Sections */
+.wholesale-prices, .original-perfumes {
+    padding: 60px 0;
+    background-color: #FFFFFF; /* Fondo blanco puro para el contenido */
+    margin-bottom: 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+
+.wholesale-prices table, .original-perfumes table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: #F8F7F2; /* Fondo de tabla blanco roto */
+    border-radius: 8px;
+    overflow: hidden; /* Asegura que los bordes redondeados se vean bien */
+}
+
+.wholesale-prices th, .original-perfumes th,
+.wholesale-prices td, .original-perfumes td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.wholesale-prices thead th, .original-perfumes thead th {
+    background-color: #1A2E4E; /* Azul marino */
+    color: #FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wholesale-prices tbody tr:nth-child(even), .original-perfumes tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.wholesale-prices tbody tr:hover, .original-perfumes tbody tr:hover {
+    background-color: #ececec;
+}
+
+.wholesale-prices td a, .original-perfumes td a {
+    color: #1A2E4E; /* Azul marino para enlaces en tabla */
+    font-weight: bold;
+}
+
+.wholesale-prices td a:hover, .original-perfumes td a:hover {
+    color: #DAA520; /* Dorado al pasar el ratón */
+}
+
+
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+.contact p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1A2E4E; /* Azul marino */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: calc(100% - 24px); /* Ancho completo menos padding */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #F8F7F2; /* Blanco roto */
+    color: #000000;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.contact .btn {
+    width: auto;
+    margin-top: 20px;
+}
+
+.contact-info {
+    margin-top: 40px;
+    font-size: 1.1em;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #1A2E4E; /* Azul marino */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.9em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 15px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.5em;
+    }
+
+    .hero-content p {
+        font-size: 1.1em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .wholesale-prices th, .original-perfumes th,
+    .wholesale-prices td, .original-perfumes td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    .logo h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        height: 40px;
+    }
+
+    .logo h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .hero {
+        padding: 80px 15px;
+        min-height: 300px;
+    }
+
+    .hero-content h2 {
+        font-size: 2em;
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 0.9em;
+    }
+
+    .wholesale-prices table, .original-perfumes table {
+        font-size: 0.8em;
+    }
+}
